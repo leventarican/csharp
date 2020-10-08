@@ -1,0 +1,16 @@
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/cli
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/cli.deps.json
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/cli.runtimeconfig.json
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/cli.runtimeconfig.dev.json
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/cli.dll
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/ref/cli.dll
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/cli.pdb
+/home/code/development/sourcecode/csharp/cli/obj/Debug/net5.0/cli.csprojAssemblyReference.cache
+/home/code/development/sourcecode/csharp/cli/obj/Debug/net5.0/cli.GeneratedMSBuildEditorConfig.editorconfig
+/home/code/development/sourcecode/csharp/cli/obj/Debug/net5.0/cli.AssemblyInfoInputs.cache
+/home/code/development/sourcecode/csharp/cli/obj/Debug/net5.0/cli.AssemblyInfo.cs
+/home/code/development/sourcecode/csharp/cli/obj/Debug/net5.0/cli.csproj.CoreCompileInputs.cache
+/home/code/development/sourcecode/csharp/cli/obj/Debug/net5.0/cli.dll
+/home/code/development/sourcecode/csharp/cli/obj/Debug/net5.0/ref/cli.dll
+/home/code/development/sourcecode/csharp/cli/obj/Debug/net5.0/cli.pdb
+/home/code/development/sourcecode/csharp/cli/obj/Debug/net5.0/cli.genruntimeconfig.cache
