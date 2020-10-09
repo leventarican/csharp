@@ -1,4 +1,7 @@
 ﻿using System;
+using Microsoft.Extensions.Logging;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace cli
 {
@@ -38,6 +41,27 @@ namespace cli
             Console.WriteLine("get property: " + dev.ProgrammingLanguage);
             dev.Experience = 10;
             Console.WriteLine("get property: " + dev.Experience);
+
+            // Logging
+            using var loggerFactory = LoggerFactory.Create(builder =>
+        {
+            builder
+                // .AddFilter("Microsoft", LogLevel.Warning)
+                // .AddFilter("System", LogLevel.Warning)
+                .AddFilter("LoggingConsoleApp.Program", LogLevel.Information)
+                .AddConsole();
+        });
+            ILogger logger = loggerFactory.CreateLogger<Program>();
+            logger.LogInformation("Example log message");
+            logger.LogDebug("debug example");
+            logger.LogCritical("system shutdown in 3s...");
+            logger.LogWarning("warning warning");
+            logger.LogError("ERROR!");
+
+            // JSON
+            string jsonString;
+            jsonString = JsonSerializer.Serialize(dev);
+            logger.LogInformation(jsonString);
         }
     }
 
@@ -59,11 +83,13 @@ namespace cli
         }
     }
 
-    class CloudDeveloper : Developer {
+    class CloudDeveloper : Developer
+    {
         public string publiccloud = "abc cloud";
     }
 
-    sealed class SealedClass  {
+    sealed class SealedClass
+    {
         public string inherit = "this class cant be inherited";
     }
 }

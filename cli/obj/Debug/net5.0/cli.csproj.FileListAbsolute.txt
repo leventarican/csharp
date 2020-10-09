@@ -14,3 +14,16 @@
 /home/code/development/sourcecode/csharp/cli/obj/Debug/net5.0/ref/cli.dll
 /home/code/development/sourcecode/csharp/cli/obj/Debug/net5.0/cli.pdb
 /home/code/development/sourcecode/csharp/cli/obj/Debug/net5.0/cli.genruntimeconfig.cache
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/Microsoft.Extensions.Configuration.dll
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/Microsoft.Extensions.Configuration.Binder.dll
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/Microsoft.Extensions.Logging.dll
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/Microsoft.Extensions.Logging.Configuration.dll
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/Microsoft.Extensions.Logging.Console.dll
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/Microsoft.Extensions.Options.dll
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+/home/code/development/sourcecode/csharp/cli/bin/Debug/net5.0/Microsoft.Extensions.Primitives.dll
+/home/code/development/sourcecode/csharp/cli/obj/Debug/net5.0/cli.csproj.CopyComplete

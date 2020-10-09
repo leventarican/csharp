@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "5CKPJGGC70+QE83aUOB4KOCD8iyuwEufljupcCMpVaX9Z7/RVCoxWfYQ8P6SZq467kUI1UOM+qc2untmT2/exA==",
+  "dgSpecHash": "UQIfhOZjMGGwcp44rJAAzWGcvKZJEDevFTwpAgsf1Vttlg1xR+2jJZ4+1GLiwAxaUMTwkCQRR3PAcjG+2YrhUA==",
   "success": true,
   "projectFilePath": "/home/code/development/sourcecode/csharp/cli/cli.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/code/.nuget/packages/microsoft.extensions.configuration/3.1.8/microsoft.extensions.configuration.3.1.8.nupkg.sha512",
+    "/home/code/.nuget/packages/microsoft.extensions.configuration.abstractions/3.1.8/microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+    "/home/code/.nuget/packages/microsoft.extensions.configuration.binder/3.1.8/microsoft.extensions.configuration.binder.3.1.8.nupkg.sha512",
+    "/home/code/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.8/microsoft.extensions.dependencyinjection.3.1.8.nupkg.sha512",
+    "/home/code/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.8/microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "/home/code/.nuget/packages/microsoft.extensions.logging/3.1.8/microsoft.extensions.logging.3.1.8.nupkg.sha512",
+    "/home/code/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.8/microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
+    "/home/code/.nuget/packages/microsoft.extensions.logging.configuration/3.1.8/microsoft.extensions.logging.configuration.3.1.8.nupkg.sha512",
+    "/home/code/.nuget/packages/microsoft.extensions.logging.console/3.1.8/microsoft.extensions.logging.console.3.1.8.nupkg.sha512",
+    "/home/code/.nuget/packages/microsoft.extensions.options/3.1.8/microsoft.extensions.options.3.1.8.nupkg.sha512",
+    "/home/code/.nuget/packages/microsoft.extensions.options.configurationextensions/3.1.8/microsoft.extensions.options.configurationextensions.3.1.8.nupkg.sha512",
+    "/home/code/.nuget/packages/microsoft.extensions.primitives/3.1.8/microsoft.extensions.primitives.3.1.8.nupkg.sha512"
+  ],
   "logs": []
 }
