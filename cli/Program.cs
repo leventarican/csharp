@@ -16,6 +16,18 @@ namespace cli
             status = "constructed";
         }
 
+        // is the given number a prime number? 
+        bool PrimeNumber(int number) {
+            int count = 0;
+            for (int i = 1; i <= number; i++) {
+                if (number % i == 0) {
+                    count++;
+                }
+            }
+            Console.WriteLine(count);
+            return count == 2;
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
@@ -62,6 +74,9 @@ namespace cli
             string jsonString;
             jsonString = JsonSerializer.Serialize(dev);
             logger.LogInformation(jsonString);
+
+            Program app = new Program();
+            logger.LogInformation("5 prime number? " + app.PrimeNumber(5));
         }
     }
 
